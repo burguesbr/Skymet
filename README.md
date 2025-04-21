@@ -4,7 +4,7 @@ Skymet is a full-stack weather application that provides real-time and forecaste
 user-friendly interface. The application integrates advanced weather visualization using charts and icons, and
 dynamically adapts based on user location.
 
-This project is being developed as my ITS Prodigi graduation project.
+This project is being developed as my ITS Prodigi graduation project and it's also my first ever full stack webapp.
 
 ## Table of Contents
 
