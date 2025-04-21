@@ -26,7 +26,6 @@ This project is actively being developed with the following features already com
 
 - **Real-Time Weather Data**: The app successfully retrieves real-time weather information for any location.
 - **Weather Forecasting**: Users can view weather forecasts for the upcoming days.
-- **Interactive Visualizations**: Weather data is displayed using interactive charts and graphs (powered by Recharts) for easy analysis.
 - **User Location Detection**: The app automatically detects the user's location using the IP-API service to provide localized weather data.
 - **Favorite Cities**: Users can save and quickly access their favorite cities for efficient weather tracking.
 
@@ -36,7 +35,6 @@ Some enhancements are currently being worked on, including user profile manageme
 
 These are the features that are planned and are in development or on the roadmap for future releases:
 
-- **🚧WIP!🚧 Statistics Page**: Display historical weather data for selected cities.
 - **🚧WIP!🚧 User Profile Page**: Editable user profile with a more refined form design.
 - **Autocomplete for Last Searched Cities**: Implement a FIFO array for the most recent cities searched.
 - **🚧WIP!🚧 Dynamic Weather Backgrounds**: Add a feature that changes the background based on weather conditions (with smoother transitions).
