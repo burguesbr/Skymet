@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+	<title>vite</title>
+	<defs>
+		<image aria-label="FR"  width="28" height="19" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAATCAMAAAC0hZ1zAAAAAXNSR0IB2cksfwAAAKVQTFRFAAAA/wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD//wD/fJRoIAAAADd0Uk5TAOX/zO+6Q/xC5MnAz8HdASc8QTbTXj24btRjOTcDnoCo+AXrNbQVQKqwzT8dNJ3DRZzSU5vYAgzHEdoAAADASURBVHicfdBbCwFBGAbg91spJJu1OV+QCzlG/P9/QDZESImcjxeK3cIM2lbbZ27ma57eZt4h/FlEZM8PwPP8jAqRySLgpRvIf4fv69c3BoQrpoUgXWQydLbDAtWT2DVxFD4wCP2IyM6N+lYOsR2iaw4TG8SXDKZWQHLheK02f2OaZMEZtL2zZ2bq7JmlCYs5Gn1+6PfOqAoB+QFcWByi0Ed5bKHUZRDVHioGhzJa7TCIuoFam0MZrbcYRLONBr0ASjRVSuFYezkAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+	</style>
+	<use id="FR" href="#img1" x="3" y="5"/>
+</svg>

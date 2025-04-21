@@ -1,0 +1,37 @@
+@import 'open-weather-icons/dist/css/open-weather-icons.css';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  transition: background-image 0.5s ease-in-out;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.credit {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 10px;
+  color: #8fc9da;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.85);
+  border-radius: 10px;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+  padding: 5px 5px;
+}
+
+.Toastify__toast-body {
+  font-family: 'Poppins', sans-serif;
+  color: #333333;
+}
