@@ -7,6 +7,8 @@ It leverages interactive charts and icons, for a better understanding of weather
 
 This project is my **ITS graduation project** and also my **first ever** full-stack web application, demonstrating my proficiency in both backend and frontend technologies.
 
+This project wouldn't have been possible without the [Openweathermap's student initiative](https://docs.openweather.co.uk/our-initiatives/student-initiative) and [IP-API](https://ip-api.com/).
+
 ## Table of Contents
 
 - [Current Status and Features](#current-status-and-features)
