@@ -1,50 +1,65 @@
-# Skymet
+# Skymet - Full-Stack Weather Application
 
-Skymet is a full-stack weather application that provides real-time and forecasted weather data in an intuitive and
-user-friendly interface. The application integrates advanced weather visualization using charts and icons, and
-dynamically adapts based on user location.
+Skymet is a full-stack web application that provides real-time and forecasted weather data.
+Built with a user-friendly interface, it allows users to access detailed weather insights,
+save their favorite cities, and dynamically adapts based on user location.
+It leverages interactive charts and icons, for a better understanding of weather trends.
 
-This project is being developed as my ITS Prodigi graduation project and it's also my first ever full stack webapp.
+This project is my **ITS graduation project** and also my **first ever** full-stack web application, demonstrating my proficiency in both backend and frontend technologies.
 
 ## Table of Contents
 
-- [Features](#features)
-- [To do](#to-do)
-- [Installation](#installation)
-- [Usage](#usage)
+- [Current Status and Features](#current-status-and-features)
+- [To Do](#to-do)
 - [Languages and Frameworks](#languages-and-frameworks)
 - [External APIs](#external-apis)
+- [Installation](#installation)
+- [Usage](#usage)
 - [License](#license)
 - [Preview](#preview)
 
-## Features
+## Current Status and Features
 
-- **Real-Time Weather Data**: Access real-time weather information.
-- **Forecasts**: View detailed weather forecasts for various locations.
-- **Interactive Visualizations**: Includes graphs and charts powered by Recharts for clear and engaging weather
-  analysis.
-- **Localization**: Automatically detects user location using IP-API.
-- **Favorites**: Save your favorite cities to access the weather data more efficiently.
+This project is actively being developed with the following features already completed and functioning:
 
-## To do
+- **Real-Time Weather Data**: The app successfully retrieves real-time weather information for any location.
+- **Weather Forecasting**: Users can view weather forecasts for the upcoming days.
+- **Interactive Visualizations**: Weather data is displayed using interactive charts and graphs (powered by Recharts) for easy analysis.
+- **User Location Detection**: The app automatically detects the user's location using the IP-API service to provide localized weather data.
+- **Favorite Cities**: Users can save and quickly access their favorite cities for efficient weather tracking.
 
-- **Statistics page**: Statistics page with historical city weather data.
-- 🚧WIP!🚧 **User detail page**: User detail page with updateable form. | Add cuter form, grey readonly field and apply
-  changes button
-- **Autocomplete with last searched cities**: Insert FIFO array of last searched cities.
-- 🚧WIP!🚧**Dynamic background**: background changes with weather. | Add cuter transition
-- 🚧WIP!🚧**Responsiveness**: every action needs proper message/toast. | Make sure toast are everywhere
-- **Favorites limit**: save a maximum of 5 favorite cities.
-- **Mobile app**: mobile app with a proper notification system, so you can get automatic weather updates.
-- 🚧WIP!🚧**Proper Registration:** email, update data, etc.
-- **Five day forecasting**: add functionality where you can check out more data for next five days
+Some enhancements are currently being worked on, including user profile management, dynamic backgrounds, and mobile app functionality.
 
-## To fix
+## To Do
 
-- Current city caching (IP API) when switching pages
-- ✅DONE!✅~~chance of precipitation formatting~~
-- ✅DONE!✅~~last update hour - day instead of day - hour~~
-- Middle of current weather bar: weather alert (find weather alert api) or center current weather data
+These are the features that are planned and are in development or on the roadmap for future releases:
+
+- **🚧WIP!🚧 Statistics Page**: Display historical weather data for selected cities.
+- **🚧WIP!🚧 User Profile Page**: Editable user profile with a more refined form design.
+- **Autocomplete for Last Searched Cities**: Implement a FIFO array for the most recent cities searched.
+- **🚧WIP!🚧 Dynamic Weather Backgrounds**: Add a feature that changes the background based on weather conditions (with smoother transitions).
+- **Mobile App Version**: Developing a mobile app that will provide push notifications for real-time weather updates.
+- **🚧WIP!🚧 Full User Registration**: User registration functionality with email verification and ability to update user information.
+- **🚧WIP!🚧 Five-Day Forecasting**: Adding a detailed forecast for the next five days.
+
+These features are planned for future versions of the app, and I am working on implementing them to further enhance the user experience.
+
+### Languages and Frameworks
+
+- **Backend:**
+  Python, [Django](https://www.djangoproject.com/start/), [Django Rest Framework](https://www.django-rest-framework.org)
+- **Frontend:** Javascript, [React](https://react.dev), [Vite](https://vite.dev)
+- **Styling:** [Tailwind CSS](https://tailwindcss.com/docs/installation)
+- **Data Visualization:** [Recharts](https://recharts.org/en-US/guide/getting-started)
+- **Icons:
+  ** [Open Weather Icons](https://github.com/isneezy/open-weather-icons), [React Icons](https://react-icons.github.io/react-icons/)
+
+### External APIs
+
+This project uses the following external APIs:
+
+- [OpenWeatherMap API](https://openweathermap.org/api)
+- [IP-API](https://ip-api.com)
 
 ## Installation
 
@@ -120,23 +135,6 @@ OPENWEATHER_API_KEY=<your_openweathermap_api_key>
 
 - **Create a user:**
   Register to Skymet with the register form to start using the app
-
-### Languages and Frameworks
-
-- **Backend:**
-  Python, [Django](https://www.djangoproject.com/start/), [Django Rest Framework](https://www.django-rest-framework.org)
-- **Frontend:** Javascript, [React](https://react.dev), [Vite](https://vite.dev)
-- **Styling:** [Tailwind CSS](https://tailwindcss.com/docs/installation)
-- **Data Visualization:** [Recharts](https://recharts.org/en-US/guide/getting-started)
-- **Icons:
-  ** [Open Weather Icons](https://github.com/isneezy/open-weather-icons), [React Icons](https://react-icons.github.io/react-icons/)
-
-### External APIs
-
-This project uses the following external APIs:
-
-- [OpenWeatherMap API](https://openweathermap.org/api)
-- [IP-API](https://ip-api.com)
 
 ## License
 
