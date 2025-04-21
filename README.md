@@ -51,8 +51,7 @@ These features are planned for future versions of the app, and I am working on i
 - **Frontend:** Javascript, [React](https://react.dev), [Vite](https://vite.dev)
 - **Styling:** [Tailwind CSS](https://tailwindcss.com/docs/installation)
 - **Data Visualization:** [Recharts](https://recharts.org/en-US/guide/getting-started)
-- **Icons:
-  ** [Open Weather Icons](https://github.com/isneezy/open-weather-icons), [React Icons](https://react-icons.github.io/react-icons/)
+- **Icons:** [Open Weather Icons](https://github.com/isneezy/open-weather-icons), [React Icons](https://react-icons.github.io/react-icons/)
 
 ### External APIs
 
